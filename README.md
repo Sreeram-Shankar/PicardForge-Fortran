@@ -55,8 +55,6 @@ PicardForge-Fortran/
 ├── rk_module.f90        # RK1–RK5 explicit methods
 ├── sdirk_module.f90     # SDIRK2–SDIRK4
 ├── irk_module.f90       # Gauss/Radau/Lobatto collocation IRK
-└── picardforge.f90      # Unified module exporting all solvers
-
 ````
 
 All solver modules follow the same API style:
